@@ -6,10 +6,10 @@ let pokemonList = [
 ];
 for (let i = 0;
     i < pokemonList.length; i++) {
-    if(pokemonList[i].height >= 3) {
+    if(pokemonList[i].height >= 5) {
         document.write(pokemonList[i].name + " (height: " + pokemonList[i].height + " m) - Wow, that is big!" + "<br>")
     }
-    else if (pokemonList[i].height >= 1 && pokemonList[i].height < 3){
+    else if (pokemonList[i].height >= 2 && pokemonList[i].height < 5){
         document.write(pokemonList[i].name + " (height: " + pokemonList[i].height + " m) - That is a medium pokemon!" + "<br>")
     }
     else {
