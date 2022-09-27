@@ -1,5 +1,5 @@
 
-let pokemonList = [
+/*let pokemonList = [
     { name: 'Balbasure', height: 7, type: ['grass', 'poison'] },
     { name: 'Charizard', height: 2, type: ['fire', 'flying'] },
     { name: 'Mightyena', height: 1.7, type: 'dark' }
@@ -15,4 +15,29 @@ for (let i = 0;
     else {
         document.write(pokemonList[i].name + " (height: " + pokemonList[i].height + " m) - That is a small pokemon!" + "<br>")
     }
-}
+}*/
+
+let pokemonRepository =(function(){
+    let pokemonList = [
+        { name: 'Balbasure', height: 7, type: ['grass', 'poison'] },
+        { name: 'Charizard', height: 2, type: ['fire', 'flying'] },
+        { name: 'Mightyena', height: 1.7, type: 'dark' }
+    ]
+    function getAll() {
+        return pokemonList;
+      }
+
+      function add(pokemon) { 
+        if (typeof pokemon === 'object' && 'name' in pokemon){
+        pokemonList.push(pokemon);
+      }
+    }
+
+      return {
+        add: add,
+        getAll: getAll
+      }
+
+})()
+
+
