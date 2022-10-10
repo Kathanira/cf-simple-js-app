@@ -36,9 +36,20 @@ body {
     color: var(--light-grey);
   }
 
-.pokedex__header {
+/*.pokedex__header {
     text-align: center;
-  }
+  }*/
+
+ 
+  
+  /*.navigation__logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }*/
 
   .button-class {
     align-items: center;

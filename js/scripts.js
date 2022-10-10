@@ -63,7 +63,10 @@
         }
 
 
-        function showDetails(pokemon) {
+
+        //Modal
+
+ function showDetails(pokemon) {
           pokemonRepository.loadDetails(pokemon).then(function () {
             showModal(pokemon);
             //console.log(item);
@@ -124,7 +127,8 @@
           addListItem: addListItem,
           loadList: loadList,
           loadDetails: loadDetails,
-          showDetails: showDetails
+          showDetails: showDetails,
+          showModal: showModal,
         };
       })();
       
