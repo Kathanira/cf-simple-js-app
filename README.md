@@ -22,3 +22,6 @@ Technical Dependencies:
 
 Link:
 https://kathanira.github.io/cf-simple-js-app/
+
+
+<img width="756" alt="Pokedex" src="https://user-images.githubusercontent.com/112494140/216558431-06b8d8b0-2cbe-4fd3-9b7e-9074e0049cd3.png">
